@@ -4,11 +4,11 @@
 
 This implementation is inspired by the PyExfil Project (Copyright (c) 2014 Yuval tisf Nativ, Link: https://github.com/ytisf/PyExfil)
 
-In this repository, you will find a Python3 implementation of my Data-Exfiltration approach to bypass Firewalls for e.g. File-Transfers. This piece of code can be used for penetration testing !only! on your own devices!
+In this repository, you find a Python3 implementation of my Data-Exfiltration approach to bypass Firewalls for e.g. File-Transfers. This piece of code can be used for penetration testing !only! on your own devices!
 
 Just study the code and you will understand the features this implementation provides for you. Most imporant features are: 
 
-- [X] Fast & reliable encryption using SALSA20
+- [X] Fast & reliable encryption using SALSA20 (uses pre-exchanged key / symetrical enc)
 - [X] Integrity Protection / Fail safe transfer by using CRC32
 - [X] Adjustable Packet Size & Sending Interval
 - [X] No malformed DNS requests
